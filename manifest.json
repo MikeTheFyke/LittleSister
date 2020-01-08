@@ -1,7 +1,14 @@
 {
     "manifest_version": 2,
+    "name": "Little Sister Launcher",
     "description": "LittleSister",
     "version": "1.0",
+    "icons": {"128": "icon_128.png"},
+    "browser_action":{
+        "default_icon": "logo01.png",
+        "default_popup": "popup.html"
+    },
+    "permissons": ["activeTab"],
     "content_scripts": [
         {
             "matches": [
