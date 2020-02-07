@@ -2,9 +2,10 @@
     color: #28A6DF;
 }
 
+
 .header{
     width: 300px;
-    height: 150px;
+    height: 250px;
     text-align:center;
 }
 
@@ -26,7 +27,7 @@
     margin-left: 8px;
     background-color: white;
     border-color: #28A6DF;
-    border-radius: 45px;
+    border-radius: 10px;
     border-style: solid; 
     outline: none;
 }
@@ -41,5 +42,37 @@
     border-color: #28A6DF;
     border-radius: 35px;
     border-style:solid;
+    outline: none;
+}
+
+#list-Container{
+    position: absolute;
+    top: 120px;
+}
+
+.unwordListButton{
+    color: #28A6DF;
+    font-size: 12px;
+    background-color:transparent;
+    border-color:white;
+    outline: none;
+}
+
+#unword-List-Container{
+    display:none;
+}
+
+#unword-List{
+    color:grey;
+}
+
+.remove-Unword{
+    padding: 0px;
+    text-align: center;
+    color:white;
+    border-radius: 90px;
+    background-color: #28A6DF;
+    width: 15px;
+    height: 15px;
     outline: none;
 }
