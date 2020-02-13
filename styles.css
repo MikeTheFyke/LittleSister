@@ -63,6 +63,7 @@
 }
 
 #unword-List{
+    display: hidden;
     color:grey;
 }
 
